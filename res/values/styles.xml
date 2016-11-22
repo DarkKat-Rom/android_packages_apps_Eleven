@@ -16,7 +16,7 @@
 -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Main Material -->
-    <style name="Eleven.Theme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+    <style name="Eleven.Theme" parent="@android:style/Theme.Material.DayNight.DarkActionBar">
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:popupMenuStyle">@style/PopupMenu</item>
         <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
@@ -194,5 +194,5 @@
 
     <style name="ToolBarTheme" parent="android:style/ThemeOverlay.Material.Dark.ActionBar" />
 
-    <style name="ToolBarPopupTheme" parent="android:style/Theme.Material.Light" />
+    <style name="ToolBarPopupTheme" parent="android:style/Theme.Material.DayNight" />
 </resources>
