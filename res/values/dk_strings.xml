@@ -16,9 +16,9 @@
 <resources>
 
     <string name="settings_show_music_visualization_summary_disabled">The \'Record audio\' permission can\'t be enabled here.\nTo display the music visualization, the \'Record audio\' permission has to be allowed via system settings:\nApps -> Menu -> \'Show system\' -> Music -> Permission.</string>
-	<string name="dialog_permission_record_audio_title">\'Record audio\' permission</string>
-	<string name="dialog_permission_record_audio_message">To display the music visualization the \'Record audio\' permission is needed.\nThis permission can be denied or allowed at any time via system settings:\nApps -> Menu -> \'Show system\' -> Music -> Permissions.\nClick on \'Cancel\' to disable the music visualization,\n(the permission won\'t be changed).</string>
-	<string name="dialog_ok">OK</string>
-	<string name="dialog_cancel">Cancel</string>
-	<string name="toast_music_visualization_disabled">\'Record audio\' permission denied, music visualization disabled.</string>
+    <string name="dialog_permission_record_audio_title">\'Record audio\' permission</string>
+    <string name="dialog_permission_record_audio_message">To display the music visualization the \'Record audio\' permission is needed.\nThis permission can be denied or allowed at any time via system settings:\nApps -> Menu -> \'Show system\' -> Music -> Permissions.\nClick on \'Cancel\' to disable the music visualization,\n(the permission won\'t be changed).</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="toast_music_visualization_disabled">\'Record audio\' permission denied, music visualization disabled.</string>
 </resources>

@@ -16,9 +16,9 @@
 <resources>
 
     <string name="settings_show_music_visualization_summary_disabled">Die \"Audio aufnehmen\" Berechtigung kann hier nicht mehr erlaubt werden.\nUm die Musik-Visualisierung darzustellen muß die \"Audio aufnehmen\" Berechtigung über die Systemeinstellungen erlaubt werden:\nApps -> Menu -> \"Systemprozesse anzeigen\" -> Musik -> Berechtigungen.</string>
-	<string name="dialog_permission_record_audio_title">\"Audio aufnehmen\" Berechtigung</string>
-	<string name="dialog_permission_record_audio_message">Um die Musik-Visualisierung darzustellen wird die \"Audio aufnehmen\" Berechtigung benötigt, damit der Ton aufgenommen werden kann.\nDiese Berechtigung kann zu jeder Zeit über die Systemeinstellungen abgelehnt oder erlaubt werden:\nApps -> Menu -> \"Systemprozesse anzeigen\" -> Musik -> Berechtigungen.\nKlicke auf \"Abbrechen\", um die Musik-Visualisierung zu deaktivieren,\n(die Berechtigung wird nicht geändert).</string>
-	<string name="dialog_ok">OK</string>
-	<string name="dialog_cancel">Abbrechen</string>
-	<string name="toast_music_visualization_disabled">\"Audio aufnehmen\" Berechtigung abgelehnt, Musik-Visualisierung deaktiviert.</string>
+    <string name="dialog_permission_record_audio_title">\"Audio aufnehmen\" Berechtigung</string>
+    <string name="dialog_permission_record_audio_message">Um die Musik-Visualisierung darzustellen wird die \"Audio aufnehmen\" Berechtigung benötigt, damit der Ton aufgenommen werden kann.\nDiese Berechtigung kann zu jeder Zeit über die Systemeinstellungen abgelehnt oder erlaubt werden:\nApps -> Menu -> \"Systemprozesse anzeigen\" -> Musik -> Berechtigungen.\nKlicke auf \"Abbrechen\", um die Musik-Visualisierung zu deaktivieren,\n(die Berechtigung wird nicht geändert).</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Abbrechen</string>
+    <string name="toast_music_visualization_disabled">\"Audio aufnehmen\" Berechtigung abgelehnt, Musik-Visualisierung deaktiviert.</string>
 </resources>
