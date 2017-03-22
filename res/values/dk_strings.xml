@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 DarkKat
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <string name="settings_show_music_visualization_summary_disabled">The \'Record audio\' permission can\'t be enabled here.\nTo display the music visualization, the \'Record audio\' permission has to be allowed via system settings:\nApps -> Menu -> \'Show system\' -> Music -> Permission.</string>
+	<string name="dialog_permission_record_audio_title">\'Record audio\' permission</string>
+	<string name="dialog_permission_record_audio_message">To display the music visualization the \'Record audio\' permission is needed.\nThis permission can be denied or allowed at any time via system settings:\nApps -> Menu -> \'Show system\' -> Music -> Permissions.\nClick on \'Cancel\' to disable the music visualization,\n(the permission won\'t be changed).</string>
+	<string name="dialog_ok">OK</string>
+	<string name="dialog_cancel">Cancel</string>
+	<string name="toast_music_visualization_disabled">\'Record audio\' permission denied, music visualization disabled.</string>
+</resources>
