@@ -1,6 +1,10 @@
 /*
  * Copyright (C) 2012 Andrew Neal
+ *
  * Copyright (C) 2014 The CyanogenMod Project
+ *
+ * Copyright (C) 2017 DarkKat
+ *
  * Licensed under the Apache License, Version 2.0
  * (the "License"); you may not use this file except in compliance with the
  * License. You may obtain a copy of the License at
@@ -83,6 +87,8 @@ public final class PreferenceUtils {
 
     // show/hide album art on lockscreen
     public static final String SHOW_ALBUM_ART_ON_LOCKSCREEN = "lockscreen_album_art";
+
+    public static final String ALREADY_ASKED_FOR_PERMISSION = "already_asked_for_permission";
 
     private static PreferenceUtils sInstance;
 
@@ -344,5 +350,13 @@ public final class PreferenceUtils {
 
     public boolean getShowAlbumArtOnLockscreen() {
         return mPreferences.getBoolean(SHOW_ALBUM_ART_ON_LOCKSCREEN, true);
+    }
+
+    public boolean getAlreadyAskedForPermission() {
+        return mPreferences.getBoolean(ALREADY_ASKED_FOR_PERMISSION, false);
+    }
+
+    public void setAlreadyAskedForPermission(boolean asked) {
+        mPreferences.edit().putBoolean(ALREADY_ASKED_FOR_PERMISSION, asked).commit();
     }
 }
