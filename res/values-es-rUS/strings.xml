@@ -32,7 +32,7 @@
   <string name="header_top_songs">Canciones más escuchadas</string>
   <string name="header_all_songs">Todas las canciones</string>
   <!-- Option menu items -->
-  <string name="menu_settings">Opciones</string>
+  <string name="menu_settings">Ajustes</string>
   <string name="menu_search">Buscar</string>
   <string name="menu_shuffle_item">Orden aleatorio</string>
   <string name="menu_shuffle_all">Reproducción aleatoria</string>
@@ -78,7 +78,7 @@
   <string name="clear">Borrar</string>
   <string name="new_playlist_name_template">Lista de reproducción <xliff:g id="number">%d </xliff:g></string>
   <string name="create_playlist_prompt">Nombre de lista</string>
-  <string name="delete_dialog_title">¿Eliminar <xliff:g id="item" example="album">%s</xliff:g>?</string>
+  <string name="delete_dialog_title">¿Borrar <xliff:g id="item" example="album">%s</xliff:g>?</string>
   <string name="clear_top_tracks_title">¿Borrar las canciones más reproducidas?</string>
   <string name="clear_recent_title">¿Borrar reproducidas recientemente?</string>
   <string name="clear_last_added">¿Borrar últimos añadidos?</string>
@@ -86,15 +86,15 @@
   <string name="delete_warning">Esta operación borrará todas las imágenes almacenadas en caché</string>
   <string name="new_photo">Elegir imagen de la galería</string>
   <string name="google_search">Buscar en Google</string>
-  <string name="use_default">Usar imagen predeterminada</string>
+  <string name="use_default">Usar imagen predefinida</string>
   <string name="old_photo">Usar imagen previa</string>
   <!-- Context menu items -->
   <string name="context_menu_play_selection">Reproducir</string>
   <string name="context_menu_play_next">Siguiente</string>
   <string name="context_menu_play_album">Reproducir álbum</string>
   <string name="context_menu_more_by_artist">Más del artista</string>
-  <string name="context_menu_rename_playlist">Cambiar nombre</string>
-  <string name="context_menu_delete">Eliminar</string>
+  <string name="context_menu_rename_playlist">Renombrar</string>
+  <string name="context_menu_delete">Borrar</string>
   <string name="context_menu_fetch_album_art">Obtener carátula del álbum</string>
   <string name="context_menu_fetch_artist_image">Obtener foto del artista</string>
   <string name="context_menu_remove_from_recent">Quitar de recientes</string>
@@ -120,8 +120,8 @@
   <string name="settings_ui_category">Interfaz</string>
   <string name="settings_storage_category">Almacenamiento</string>
   <string name="settings_data_category">Datos</string>
-  <string name="settings_delete_cache_title">Eliminar caché</string>
-  <string name="settings_delete_cache_summary">Eliminar todas las imágenes almacenadas</string>
+  <string name="settings_delete_cache_title">Borrar caché</string>
+  <string name="settings_delete_cache_summary">Quitar todas las imágenes almacenadas</string>
   <string name="settings_download_only_on_wifi_title">Descargar solo vía Wi-Fi</string>
   <string name="settings_download_only_on_wifi_summary">Para reducir los cargos del proveedor no descargar a través de redes móviles</string>
   <string name="settings_download_missing_artwork_title">Descargar carátulas faltantes</string>
@@ -142,20 +142,20 @@
   <!-- Empty list / error messages -->
   <string name="no_effects_for_you">No se pudo abrir el ecualizador.</string>
   <string name="empty_music">Para copiar música del ordenador al dispositivo, utiliza un cable USB.</string>
-  <string name="empty_search">No hay resultados que mostrar</string>
+  <string name="empty_search">Sin resultados que mostrar</string>
   <string name="empty_search_check">Comprueba que lo has escrito correctamente o intenta una palabra clave diferente.</string>
   <string name="empty_favorite">Las canciones marcadas como favoritas aparecerán aquí.</string>
-  <string name="empty_recent_main">No hay canciones recientes</string>
+  <string name="empty_recent_main">Sin canciones recientes</string>
   <string name="empty_recent">Las canciones que hayas escuchado recientemente aparecerán aquí.</string>
-  <string name="empty_playlist_main">No hay canciones en la lista de reproducción</string>
+  <string name="empty_playlist_main">Sin canciones en la lista de reproducción</string>
   <string name="empty_playlist_secondary">Para añadir canciones a esta lista de reproducción, pulsa en el menú de opciones de una canción, álbum o artista y selecciona \"Añadir a la lista\".</string>
-  <string name="empty_top_tracks_main">No hay canciones más escuchadas</string>
+  <string name="empty_top_tracks_main">Sin canciones más escuchadas</string>
   <string name="empty_top_tracks_secondary">Las canciones que más escuches se añadirán a esta lista.</string>
   <string name="empty_last_added_main">No se añadieron canciones recientemente</string>
   <string name="empty_last_added">Las canciones que añadiste en el último mes aparecerán aquí.</string>
   <string name="empty_generic_main">No se encontró música</string>
   <string name="empty_generic_secondary">Para copiar música del ordenador al dispositivo utiliza un cable USB.</string>
-  <string name="empty_queue_main">No hay canciones en la cola</string>
+  <string name="empty_queue_main">Sin canciones en la cola</string>
   <string name="empty_queue_secondary">Para añadir canciones a la cola, pulsa en el menú de opciones de una canción, álbum o artista y selecciona \"Añadir a la cola\".</string>
   <string name="error_playing_track">No se pudo reproducir la pista %1$s</string>
   <!-- Section Headers -->
