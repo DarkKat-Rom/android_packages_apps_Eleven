@@ -43,22 +43,22 @@
   </plurals>
   <!-- Toasts after adding song(s) to playlists -->
   <plurals name="NNNtrackstoplaylist">
-    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> bài hát đã được thêm vào danh sách phát.</item>
+    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> bài hát đã thêm vào danh sách phát.</item>
   </plurals>
   <!-- Toasts after removing song(s) from playlists -->
   <plurals name="NNNtracksfromplaylist">
-    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> bài hát đã được xoá khỏi danh sách phát.</item>
+    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> bài hát đã xóa khỏi danh sách phát.</item>
   </plurals>
   <!-- Toasts after adding song(s) to queue -->
   <plurals name="NNNtrackstoqueue">
-    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> bài hát được thêm vào danh sách chờ.</item>
+    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> bài hát đã thêm vào hàng đợi.</item>
   </plurals>
   <!-- Toasts after adding song(s) to the favorites list -->
   <plurals name="NNNtrackstofavorites">
-    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> bài hát đã được thêm vào yêu thích.</item>
+    <item quantity="other"><xliff:g id="number" example="27">%d</xliff:g> bài hát đã thêm vào yêu thích.</item>
   </plurals>
   <!-- Toast confirming that song(s) was/were deleted. -->
   <plurals name="NNNtracksdeleted">
-    <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> bài hát đã bị xoá.</item>
+    <item quantity="other"><xliff:g id="songs_to_delete">%d</xliff:g> bài hát đã bị xóa.</item>
   </plurals>
 </resources>
