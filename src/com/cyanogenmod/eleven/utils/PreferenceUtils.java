@@ -17,8 +17,11 @@
 
 package com.cyanogenmod.eleven.utils;
 
+import android.Manifest.permission;
+import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.preference.PreferenceManager;
@@ -88,7 +91,7 @@ public final class PreferenceUtils {
     // show/hide album art on lockscreen
     public static final String SHOW_ALBUM_ART_ON_LOCKSCREEN = "lockscreen_album_art";
 
-    public static final String ALREADY_ASKED_FOR_PERMISSION = "already_asked_for_permission";
+    private static final int PERMISSION_REQUEST_RECORD_AUDIO = 1;
 
     private static PreferenceUtils sInstance;
 
@@ -340,8 +343,19 @@ public final class PreferenceUtils {
         return mPreferences.getBoolean(SHOW_LYRICS, true);
     }
 
+    public static boolean canRecordAudio(Activity activity) {
+        return activity.checkSelfPermission(permission.RECORD_AUDIO) ==
+                PackageManager.PERMISSION_GRANTED;
+    }
+
+    public static void requestRecordAudio(Activity activity) {
+        activity.requestPermissions(
+                new String[] {permission.RECORD_AUDIO},
+                PERMISSION_REQUEST_RECORD_AUDIO);
+    }
+
     public boolean getShowVisualizer() {
-        return mPreferences.getBoolean(SHOW_VISUALIZER, true);
+        return mPreferences.getBoolean(SHOW_VISUALIZER, false);
     }
 
     public boolean getShakeToPlay() {

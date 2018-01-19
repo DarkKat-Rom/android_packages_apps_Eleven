@@ -17,7 +17,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-common \
     android-support-v4 \
     android-support-v7-recyclerview \
-    guava
+    guava \
+    junit
 
 LOCAL_AAPT_FLAGS := \
     --auto-add-overlay \
@@ -26,6 +27,8 @@ LOCAL_AAPT_FLAGS := \
 
 LOCAL_PACKAGE_NAME := Eleven
 LOCAL_OVERRIDES_PACKAGES := Music
+
+LOCAL_PRIVILEGED_MODULE := true
 
 LOCAL_JNI_SHARED_LIBRARIES := librsjni
 
