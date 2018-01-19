@@ -72,9 +72,6 @@ public class SettingsActivity extends PreferenceActivity implements OnSharedPref
         deleteCache();
 
         PreferenceUtils.getInstance(this).setOnSharedPreferenceChangeListener(this);
-
-        checkRecordAudioPermission();
-        updateShowVisualizerPreference();
     }
 
     /**

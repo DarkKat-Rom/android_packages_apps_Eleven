@@ -365,12 +365,4 @@ public final class PreferenceUtils {
     public boolean getShowAlbumArtOnLockscreen() {
         return mPreferences.getBoolean(SHOW_ALBUM_ART_ON_LOCKSCREEN, true);
     }
-
-    public boolean getAlreadyAskedForPermission() {
-        return mPreferences.getBoolean(ALREADY_ASKED_FOR_PERMISSION, false);
-    }
-
-    public void setAlreadyAskedForPermission(boolean asked) {
-        mPreferences.edit().putBoolean(ALREADY_ASKED_FOR_PERMISSION, asked).commit();
-    }
 }
