@@ -16,19 +16,17 @@
 
 <resources>
 
-    <!-- Theme.Material (Blackout version) -->
+    <!-- Theme.Material (Blackout-DarkKat version) -->
 
     <!-- Blackout colors -->
     <color name="blackout_bg">#ff000000</color>
     <color name="primary_color_blackout">#ff101010</color>
 
+    <!-- Blackout-DarkKat version colors -->
+    <color name="accent">@*android:color/accent_darkkat</color>
+
     <!-- Main colors -->
     <color name="white">#ffffffff</color>
-
-    <!-- Theme colors -->
-    <color name="primary">@color/primary_color_blackout</color>
-    <color name="primary_dark">@color/blackout_bg</color>
-    <color name="accent">@color/white</color>
 
     <!-- Standard Text colors -->
     <color name="default_text_color">@color/white</color>
