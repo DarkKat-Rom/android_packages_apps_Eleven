@@ -16,47 +16,69 @@
 
 <resources>
 
-    <!-- Night (DarkKat) theme colors -->
+    <!-- Theme.Material (DarkKat version) -->
+
+    <!-- Theme.Material DarkKat version colors -->
     <color name="darkkat_blue_grey">#ff1b1f23</color>
     <color name="darkkat_blue_blue_grey">#ff1f2429</color>
 
+    <!-- Main colors -->
     <color name="white">#ffffffff</color>
 
+    <!-- Theme colors -->
+    <color name="accent">@*android:color/accent_darkkat</color>
+
+    <!-- Standard Text colors -->
     <color name="default_text_color">@color/white</color>
     <color name="default_text_color_light">@color/default_text_color</color>
     <color name="default_text_color_secondary">#b3ffffff</color>
 
+    <!-- Cards colors -->
     <color name="cards_bg_color">@color/darkkat_blue_blue_grey</color>
     <color name="cardOne">@color/default_text_color</color>
     <color name="cardTwo">@color/default_text_color_secondary</color>
 
+    <!-- Transparent colors -->
     <color name="transparent_white">#99ffffff</color>
 
     <color name="background_color">@color/darkkat_blue_grey</color>
 
+    <!-- Background color used on some page headers -->
     <color name="page_header_background">@color/darkkat_blue_grey</color>
 
+   <!-- Color for the pop up menu -->
     <color name="menu_text_color">@color/default_text_color</color>
 
+    <!-- List view related colors -->
     <color name="list_item_background">@color/darkkat_blue_grey</color>
     <color name="list_item_header_text_color">@color/default_text_color</color>
     <color name="list_item_divider_color">#31ffffff</color>
     <color name="list_item_divider_color_light">#31ffffff</color>
     <color name="grid_list_item_text_color">@color/default_text_color_secondary</color>
 
+    <!-- search no results text color -->
     <color name="no_results">@color/white</color>
 
+    <!-- Background Lyrics Color -->
     <color name="lyrics_background_color">@color/darkkat_blue_blue_grey</color>
 
+    <!-- Letter tile colors -->
     <color name="letter_tile_default_color">@color/grey_dark</color>
 
+   <!-- Color for the visualizer bars -->
     <color name="visualizer_fill_color">#bfffffff</color>
 
+    <!-- Separated and exposed values for themes -->
     <color name="widget_background_color">@color/background_color</color>
     <color name="list_base_container_background_color">@color/background_color</color>
     <color name="app_msg_text_color">?android:textColorPrimary</color>
 
+    <!-- DarkKat additions -->
+
+    <!-- Color for icons -->
     <color name="icon_color">@color/white</color>
     <color name="icon_color_grey">@color/grey_dark</color>
+
+    <!-- Color for the ripple effect -->
     <color name="ripple_color">@color/white</color>
 </resources>

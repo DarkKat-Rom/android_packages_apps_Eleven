@@ -15,11 +15,8 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Material -->
-    <color name="primary">#ff263238</color>
-    <color name="primary_dark">#ff21272b</color>
-    <color name="primary_light">#444444</color>
-    <color name="accent">#ff009688</color>
+
+    <!-- Theme.Material.Light and general theme -->
 
     <!-- Main colors -->
     <color name="black">#333333</color>
@@ -44,11 +41,17 @@
     <color name="teal_dark">#00796B</color>
     <color name="blue_dark">#303F9F</color>
 
-    <!-- Standard Text Color -->
+    <!-- Theme colors -->
+    <color name="primary">#ff263238</color>
+    <color name="primary_dark">#ff21272b</color>
+    <color name="primary_light">#444444</color>
+    <color name="accent">#ff009688</color>
+
+    <!-- Standard Text colors -->
     <color name="default_text_color">@color/black</color>
     <color name="default_text_color_light">@color/white</color>
 
-    <!-- Cards -->
+    <!-- Cards colors -->
     <color name="cards_bg_color">#273139</color>
     <color name="cardOne">@color/white</color>
     <color name="cardTwo">#e0e0e0</color>
